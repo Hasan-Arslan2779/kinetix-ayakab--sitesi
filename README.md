@@ -24,7 +24,7 @@
 
   <h2>Credits</h2>
 
-  <p>This project was created by [Hasan], based on a design by [Designer's  Hasan Arslan].</p>
+  <p>This project was created by Hasan, based on a design by Hasan Arslan.</p>
 
  
 
