@@ -20,7 +20,7 @@
 
 <h2>Gif<h2/>
 
-    <p><img src="https://github.com/Hasan-Arslan2779/kinetix-ayakab--sitesi/blob/main/Web.gif" width="500" height="320" alt="gif" /></p>
+    <p><img src="https://github.com/Hasan-Arslan2779/kinetix-ayakab--sitesi/blob/main/Web.gif " width="500" height="320" alt="gif" /></p>
 
 
   <h2>Credits</h2>
