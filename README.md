@@ -18,10 +18,8 @@
     <li>Contact form: The website includes a contact form that allows users to submit inquiries or feedback directly to the website owner.</li>
   </ul>
 
-<h2>Gif<h2/>
-
-
-  <h2>Credits</h2>
+  <h2>Gif</h2>
+ <img src="https://github.com/Hasan-Arslan2779/kinetix-ayakab--sitesi/blob/main/Web.gif" alt="gif">
 
   <p>This project was created by Hasan, based on a design by Hasan Arslan.</p>
 
