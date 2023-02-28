@@ -18,9 +18,10 @@
     <li>Contact form: The website includes a contact form that allows users to submit inquiries or feedback directly to the website owner.</li>
   </ul>
 
-  <h2>Usage</h2>
+<h2>Gif<h2/>
 
-  <p>To view the website, simply open the <code>index.html</code> file in a web browser. You can also view the website online at <a href="https://yourwebsite.com">https://yourwebsite.com</a>.</p>
+    <p><img src="" width="500" height="320" alt="gif" /></p>
+
 
   <h2>Credits</h2>
 
