@@ -24,11 +24,11 @@
 
   <h2>Credits</h2>
 
-  <p>This project was created by [Your Name], based on a design by [Designer's Name].</p>
+  <p>This project was created by [Hasan], based on a design by [Designer's  Hasan Arslan].</p>
 
-  <h2>License</h2>
+ 
 
-  <p>This project is licensed under the [Your License] license. See the LICENSE file for more details.</p>
+
 
  
 
