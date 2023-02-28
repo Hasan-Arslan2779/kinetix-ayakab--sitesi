@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Shoe Website Design</title>
-</head>
-<body>
-  <h1>Shoe Website Design</h1>
+ <h1>Shoe Website Design</h1>
 
   <p>This is a sample project for a shoe website design created using HTML5 and CSS3. The design is fully responsive, meaning it can adapt to different screen sizes for optimal viewing experience, including desktops, tablets, and smartphones.</p>
 
@@ -37,10 +30,6 @@
 
   <p>This project is licensed under the [Your License] license. See the LICENSE file for more details.</p>
 
-  <h2>Screenshots</h2>
+ 
 
-  <img src="screenshots/screenshot1.png" alt="Screenshot 1">
-  <img src="screenshots/screenshot2.png" alt="Screenshot 2">
 
-</body>
-</html>
