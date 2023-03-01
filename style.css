@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-color: #2b3d6a;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.container .header {
+  margin-top: 1rem;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .header:before {
+  content: "Kinetix";
+  color: rgb(41, 40, 40);
+  position: absolute;
+  top: 51%;
+  left: 57%;
+  font-size: 8rem;
+  opacity: 0.3;
+  z-index: -1;
+  letter-spacing: 3px;
+  font-family: "Pacifico", cursive;
+}
+.container .header i {
+  font-size: 25px;
+}
+.container .header i:hover {
+  color: rgb(26, 35, 163);
+}
+.container .header p {
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+.container .header .logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.container .header .logo span {
+  margin-right: 15px;
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+}
+.container .header .line {
+  height: 2px;
+  width: 45px;
+  background-color: white;
+  display: block;
+  margin-top: 8px;
+  margin-right: 3px;
+}
+/* Row  Section */
+.content .row {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.content .col-1 {
+  flex-basis: 50%;
+  min-height: 300px;
+}
+.content .row .col-1 h1 {
+  color: white;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  margin: 25px 0;
+}
+.content .row .col-1 p {
+  color: white;
+  font-size: 16px;
+  line-height: 30px;
+}
+.content .row .col-1 .btn {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #3a32ac;
+  margin-top: 10px;
+  color: white;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  transition: 1s all ease;
+}
+.content .row .col-1 .btn:hover {
+  background-color: rgb(5, 43, 114);
+}
+
+/* Ring Section */
+.col-1 .ring img {
+  max-width: 580px;
+  width: 100%;
+  transform: rotate(20deg);
+}
+
+#circle-ring {
+  padding-left: 130px;
+  padding-top: 60px;
+}
+.col-1 .ring {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  background: transparent;
+  border: 3px solid #3c3c3c;
+  border-radius: 50%;
+  z-index: -1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.col-1 .ring::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 100%;
+  height: 100%;
+  border: 3px solid transparent;
+  border-top: 3px solid #d4de17;
+  border-right: 3px solid #d4de17;
+  border-radius: 50%;
+  z-index: -1;
+  /* animation-name:returnCircle ;
+  animation-timing-function: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function:linear; */
+  animation: returnCircle 10s linear infinite;
+}
+.col-1 .ring .circle {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  height: 4px;
+  z-index: -1;
+  background: transparent;
+  transform-origin: left;
+  animation: return 10s linear infinite;
+}
+.col-1 .ring .circle::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  right: -9px;
+  width: 16px;
+  height: 16px;
+  background: #0f0f11;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #19191a;
+  z-index: -1;
+}
+
+.col-1 .ring-two {
+  position: absolute;
+  top: 18%;
+  left: 55.5%;
+  height: 500px;
+  width: 500px;
+  background: transparent;
+  border: 3px solid #3c3c3c;
+  border-radius: 50%;
+}
+.col-1 .ring-two::before {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  width: 100%;
+  height: 100%;
+  border: 3px solid transparent;
+  border-bottom: 3px solid #d4de17;
+  border-left: 3px solid #d4de17;
+  border-radius: 50%;
+}
+
+@keyframes returnCircle {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes return {
+  0% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(405deg);
+  }
+}
